@@ -11,8 +11,7 @@ length(maxRainfallDate)
 
 
 #(b)
-cat("The data number:\t",length(maxRainfallDate),"\n") 
-cat("The maximum rainfall per 5 min.:\t",maxRainfall," mm\n")
-cat("The date and time:\t",maxRainfallDate)
+cat(file = "output.txt",sep="","The data number:","\t",length(maxRainfallDate),"\n","The maximum rainfall per 5 min.:","\t",maxRainfall," mm\n","The date and time:\t",maxRainfallDate) 
 
+getwd()
 
